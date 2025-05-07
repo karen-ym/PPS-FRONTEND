@@ -1,0 +1,38 @@
+:root {
+  --color-rosa: #da7c96;
+}
+
+body {
+  background-color: #f5fdfb;
+  font-family: "Poppins", sans-serif;
+}
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.btn-patron {
+  background-color: var(--color-rosa);
+  color: white;
+}
+.btn-patron:hover {
+  background-color: #c86882;
+}
+.form-control::placeholder {
+  color: #adb5bd;
+}
+
+.left-img {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.left-img img {
+  max-width: 70%;
+}
+
+.text-pink {
+  color: var(--color-rosa);
+}
